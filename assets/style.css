@@ -1,0 +1,28 @@
+header {
+	border: 1px solid navy;
+	float: left;
+	position:fixed;
+}
+
+nav {
+	border:1px solid navy;
+	float: right;
+}
+/* i want nav to be fixed relative to the webpage at the top of the screen */
+
+section {
+	border:1px solid navy;
+	float:left;
+
+}
+/* will it work fixed? it doesns't have a parent. elements inside need ids and classes and i can position absolute */
+aside {
+	border:1px solid navy;
+	float:right;
+}
+/* will it work fixed? it doesns't have a parent. elements inside need ids and classes and i can position absolute */
+footer {
+	border:1px solid navy;
+	position:fixed;
+	clear:both;
+}
