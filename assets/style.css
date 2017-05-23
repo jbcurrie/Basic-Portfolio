@@ -1,28 +1,70 @@
+body{
+	border: 1px solid navy;
+}
+
 header {
 	border: 1px solid navy;
-	float: left;
-	position:fixed;
+	height: 20px;
 }
-
-nav {
-	border:1px solid navy;
-	float: right;
-}
-/* i want nav to be fixed relative to the webpage at the top of the screen */
 
 section {
+	position:absolute;
 	border:1px solid navy;
-	float:left;
-
+	left:12%;
+	width: 645px;
 }
-/* will it work fixed? it doesns't have a parent. elements inside need ids and classes and i can position absolute */
+
 aside {
 	border:1px solid navy;
-	float:right;
+	position:absolute;
+	right:20%;
+}
+
+#name {
+	position:fixed;
+	border: 1px solid navy;
+	top:0;
+	left: 12%;	
+}
+
+#nav {
+	border:1px solid navy;
+	position: fixed;
+	top:0;
+	right: 20%;
+}
+/* should header and nav remain fixed or should we have them disappear when scrolling down? */
+#relative {
+	border: 1px solid navy;
+	position:relative;
+	top:30px;
+	height:634px;
+}
+
+#profile {
+	float:left;
+	border:1px solid navy;
+}
+
+#about {
+	border: 1px solid navy;
+	width:auto;
+	height:auto;
 }
 /* will it work fixed? it doesns't have a parent. elements inside need ids and classes and i can position absolute */
-footer {
-	border:1px solid navy;
+footer {	
 	position:fixed;
-	clear:both;
+	border:1px solid navy;
+	height: 20px;
+	bottom:0;
+	width:100%;
 }
+
+#footer {
+	border:1px solid navy;
+	position:relative;
+	bottom:0;
+	clear:both;
+	text-align: center;
+}
+/* footer overlaps text currently on scroll down*/
