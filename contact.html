@@ -5,68 +5,82 @@
 
 		<title>Contact</title>
 		<link rel="stylesheet" type="text/css" href="assets/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+		 <link rel="stylesheet" type="text/css" href="assets/style.css">
 	</head>
 		<body>
 
 			<header>
-		    	<h1>Jonathan Currie</h1>
+		    	<h1 id="name">Jonathan Currie</h1>
 
+			    <nav>
+			    	<div class="nav">
+			    		<div class="nav about">
+							<a href="#">About</a>
+						</div>
+						<div class="nav portfolio">
+				    		<a href="#">Portfolio</a>
+				    	</div>
+				    	<div class="nav contact">
+				    		<a href="#">Contact</a>
+				    	</div>
+				    </div>
+				</nav>
 			</header>
-			<nav>
-				<a id="index" href="#">About</a>
-			    <a id="portfolio" href="#">Portfolio</a>
-			    <a id="contact" href="#">Contact</a>
-			</nav>
+			<div class="clearfix">
+				<div id="container">
+					<section>
+						<h2>Contact</h2>
 
-			<section>
-				<h2>Contact</h2>
+						<hr id="hr-1">
+						
+						<fieldset>
+							<form>
+								Name: <br>
+								<input class="input" type="text" name="name" placeholder="  Example: Jon Smith">
+								<br>
+							</form>
 
-				<hr>
+							<form>
+								Email: <br>
+								<input class="input" type="text" name="email" placeholder="  example@gmail.com">
+								<br>
+							</form>
+						</fieldset>
+						<br>
 
-				<form>
-					Name: <br>
-					<input type="text" name="name">
-					<br>
-				</form>
+						<form>
+							Message: <br>
+						  <textarea class="input" name="message" rows="10" cols="50"></textarea>
+						  <br>
+						  <input id="button" type="submit">
+						</form>
 
-				<form>
-					Email: <br>
-					<input type="text" name="email">
-					<br>
-				</form>
-				
-				<br>
+						<br>
 
-				<form>
-					Message: <br>
-				  <textarea name="message" rows="10" cols="50"></textarea>
-				  <br>
-				  <input type="submit">
-				</form>
+					</section>
 
-				<br>
+					<aside>
+						<h3>Connect With Me	</h3>
 
-			</section>
+						<hr id="hr-2">
 
-			<aside>
-				<h3>Connect With Me	</h3>
+						<div id="icons">
+							<a href="#">
+						  		<img class="icon git" src="images/github.png" alt="Github">
+							</a>
+							<a href="#">
+						  		<img class="icon linked" src="images/linkedin.png" alt="LinkedIn">
+							</a>
+							<a href="#">
+						  		<img class="icon overflow" src="images/overflow.png" alt="Stack Overflow">
+							</a>
+						</div>
+					</aside>
+				</div>
+			</div>
 
-				<hr>
-
-				<a href="#">
-			  		<img src="images/github.png" alt="Github">
-				</a>
-				<a href="#">
-			  		<img src="images/linkedin.png" alt="LinkedIn">
-				</a>
-				<a href="#">
-			  		<img src="images/overflow.png" alt="Stack Overflow">
-				</a>
-			</aside>
-
-			<footer>
-				<p>©Copyright 2016 Jonathan Currie</p>
+			<footer class="footer"> © Copyright 2016 Jonathan Currie</p>
 			</footer>
 			
 		</body>
