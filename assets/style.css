@@ -36,7 +36,7 @@ header {
 nav {
 	/*position: absolute;*/
 	float:left;
-	margin-left:33%;
+	margin-left:31%;
 	padding:1%;
 	/*top:15%;
 	right: 19%;*/
@@ -196,7 +196,7 @@ aside, section {
 	background-color: #cccccc;
 }
 
-h2,#hr-1,#profile,#about {
+h2, #hr-1, #hr-2, #profile, #about {
 	margin:13px;
 }
 
@@ -213,7 +213,8 @@ h2 {
 
 h3 {
 	text-align: center;
-	font-size: 1em;
+    padding: 23px 0px 5px 0px;
+    font-size: 1.1em;
 	font-weight:bold;
 	letter-spacing: 1px;
 }
